@@ -4,9 +4,10 @@ Versión ligera del portafolio personal, hecha con HTML, CSS y JavaScript. No re
 
 ## Publicación en GitHub Pages
 
-El workflow `.github/workflows/pages.yml` configura GitHub Pages y publica el sitio automáticamente cuando se suben cambios a `main`. También se puede iniciar manualmente desde **Actions**. Si la organización o la cuenta restringe la activación automática de Pages, habilítalo en **Settings → Pages → Build and deployment → Source → GitHub Actions**.
-
-Cuando termine la ejecución, abre la URL que muestra el workflow o **Settings → Pages**.
+1. En el repositorio, abre **Settings → Pages**.
+2. En **Build and deployment → Source**, selecciona **GitHub Actions** y guarda el cambio.
+3. El workflow `.github/workflows/pages.yml` publicará el sitio automáticamente al subir cambios a `main`. También se puede iniciar manualmente desde **Actions**.
+4. Cuando termine la ejecución, abre la URL que muestra el workflow o **Settings → Pages**.
 
 ## Contenido
 
